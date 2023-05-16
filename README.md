@@ -6,8 +6,8 @@
 > Make sure to Install "MaterialSkin2Framework" in NuGet[^1]
 > [^1]: MaterialSkin2Framework : [^2]
 ```
-[^2]: Author: DigitalAdeel, leocb, IgnaceMaes
-[^3]: Desc: .NET Framework Version of MaterialSkin2DotNet.
+Author: DigitalAdeel, leocb, IgnaceMaes
+Desc: .NET Framework Version of MaterialSkin2DotNet.
 
 ```
 > Click here: [Github Repo](https://github.com/DigitalAdeel/MaterialSkin2Framework) for this Framework.
