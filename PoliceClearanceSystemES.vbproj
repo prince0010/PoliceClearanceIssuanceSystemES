@@ -1,0 +1,135 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <StartupObject>PoliceClearanceSystemES.My.MyApplication</StartupObject>
+    <UseWindowsForms>True</UseWindowsForms>
+    <MyType>WindowsForms</MyType>
+    <ImportedNamespaces>System.Data=False,System.Drawing=False,System.Windows.Forms=False,Microsoft.VisualBasic=True,System=True,System.Collections=True,System.Collections.Generic=True,System.Diagnostics=True,System.Linq=True,System.Xml.Linq=True,System.Threading.Tasks=True,PoliceClearanceSystemES=True</ImportedNamespaces>
+    <UseWPF>False</UseWPF>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+    <Platforms>AnyCPU;x86</Platforms>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\default-applicant.png" />
+    <None Remove="Resources\default-fingerprint.png" />
+    <None Remove="Resources\default-signature.png" />
+    <None Remove="Resources\default.jpg" />
+    <None Remove="Resources\elsalvadorcity.png" />
+    <None Remove="Resources\GenerateReport.rdlc" />
+    <None Remove="Resources\PCC.rdlc" />
+    <None Remove="Resources\pnp.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\default-applicant.png" />
+    <EmbeddedResource Include="Resources\default-fingerprint.png" />
+    <EmbeddedResource Include="Resources\default-signature.png" />
+    <EmbeddedResource Include="Resources\elsalvadorcity.png">
+      <Generator>MSBuild:Compile</Generator>
+      <CustomToolNamespace>PoliceClearanceSystemES</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\GenerateReport.rdlc" />
+    <EmbeddedResource Include="Resources\PCC.rdlc" />
+    <EmbeddedResource Include="Resources\pnp.png">
+      <Generator>MSBuild:Compile</Generator>
+      <CustomToolNamespace>PoliceClearanceSystemES</CustomToolNamespace>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AForge" Version="2.2.5" />
+    <PackageReference Include="AForge.Controls" Version="2.2.5" />
+    <PackageReference Include="AForge.Imaging" Version="2.2.5" />
+    <PackageReference Include="AForge.Math" Version="2.2.5" />
+    <PackageReference Include="AForge.Video" Version="2.2.5" />
+    <PackageReference Include="AForge.Video.DirectShow" Version="2.2.5" />
+    <PackageReference Include="MaterialSkin.2" Version="2.3.1" />
+    <PackageReference Include="MaterialSkin2Framework" Version="1.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="7.0.0" />
+    <PackageReference Include="QRCoder" Version="1.4.3" />
+    <PackageReference Include="ReportViewerCore.WinForms" Version="15.1.17" />
+    <PackageReference Include="SqlTableDependency" Version="8.5.8" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="AxInterop.ZKFPEngXControl">
+      <HintPath>..\WinFormsSample\AxInterop.ZKFPEngXControl.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.ZKFPEngXControl">
+      <HintPath>..\WinFormsSample\Interop.ZKFPEngXControl.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="My Project\Application.Designer.vb">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Update="My Project\Settings.Designer.vb">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Update="PCCDataSet.Designer.vb">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>PCCDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Update="ReportDataSet.Designer.vb">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ReportDataSet.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Update="My Project\Settings.settings">
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Update="PCCDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PCCDataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Update="ReportDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReportDataSet.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>

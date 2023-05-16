@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ReportDataSet" targetNamespace="http://tempuri.org/ReportDataSet.xsd" xmlns:mstns="http://tempuri.org/ReportDataSet.xsd" xmlns="http://tempuri.org/ReportDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ReportDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="ReportDataSet" msprop:Generator_DataSetName="ReportDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ReportData" msprop:Generator_RowEvHandlerName="ReportDataRowChangeEventHandler" msprop:Generator_RowDeletedName="ReportDataRowDeleted" msprop:Generator_RowDeletingName="ReportDataRowDeleting" msprop:Generator_RowEvArgName="ReportDataRowChangeEvent" msprop:Generator_TablePropName="ReportData" msprop:Generator_RowChangedName="ReportDataRowChanged" msprop:Generator_RowChangingName="ReportDataRowChanging" msprop:Generator_TableClassName="ReportDataDataTable" msprop:Generator_RowClassName="ReportDataRow" msprop:Generator_TableVarName="tableReportData" msprop:Generator_UserTableName="ReportData">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ccno" msprop:Generator_ColumnPropNameInRow="ccno" msprop:Generator_ColumnPropNameInTable="ccnoColumn" msprop:Generator_ColumnVarNameInTable="columnccno" msprop:Generator_UserColumnName="ccno" type="xs:string" minOccurs="0" />
+              <xs:element name="fullname" msprop:Generator_ColumnPropNameInRow="fullname" msprop:Generator_ColumnPropNameInTable="fullnameColumn" msprop:Generator_ColumnVarNameInTable="columnfullname" msprop:Generator_UserColumnName="fullname" type="xs:string" minOccurs="0" />
+              <xs:element name="ccissuedate" msprop:Generator_ColumnPropNameInRow="ccissuedate" msprop:Generator_ColumnPropNameInTable="ccissuedateColumn" msprop:Generator_ColumnVarNameInTable="columnccissuedate" msprop:Generator_UserColumnName="ccissuedate" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ReportHeaderSet" msprop:Generator_RowEvHandlerName="ReportHeaderSetRowChangeEventHandler" msprop:Generator_RowDeletedName="ReportHeaderSetRowDeleted" msprop:Generator_RowDeletingName="ReportHeaderSetRowDeleting" msprop:Generator_RowEvArgName="ReportHeaderSetRowChangeEvent" msprop:Generator_TablePropName="ReportHeaderSet" msprop:Generator_RowChangedName="ReportHeaderSetRowChanged" msprop:Generator_RowChangingName="ReportHeaderSetRowChanging" msprop:Generator_TableClassName="ReportHeaderSetDataTable" msprop:Generator_RowClassName="ReportHeaderSetRow" msprop:Generator_TableVarName="tableReportHeaderSet" msprop:Generator_UserTableName="ReportHeaderSet">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="reporttype" msprop:Generator_ColumnPropNameInRow="reporttype" msprop:Generator_ColumnPropNameInTable="reporttypeColumn" msprop:Generator_ColumnVarNameInTable="columnreporttype" msprop:Generator_UserColumnName="reporttype" type="xs:string" minOccurs="0" />
+              <xs:element name="reportdate" msprop:Generator_ColumnPropNameInRow="reportdate" msprop:Generator_ColumnPropNameInTable="reportdateColumn" msprop:Generator_ColumnVarNameInTable="columnreportdate" msprop:Generator_UserColumnName="reportdate" type="xs:string" minOccurs="0" />
+              <xs:element name="totalapplicants" msprop:Generator_ColumnPropNameInRow="totalapplicants" msprop:Generator_ColumnPropNameInTable="totalapplicantsColumn" msprop:Generator_ColumnVarNameInTable="columntotalapplicants" msprop:Generator_UserColumnName="totalapplicants" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

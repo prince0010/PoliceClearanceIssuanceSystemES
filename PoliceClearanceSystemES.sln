@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "PoliceClearanceSystemES", "PoliceClearanceSystemES.vbproj", "{2B12D9B9-8E9A-4103-AA1F-E03B63A94DE7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B12D9B9-8E9A-4103-AA1F-E03B63A94DE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B12D9B9-8E9A-4103-AA1F-E03B63A94DE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B12D9B9-8E9A-4103-AA1F-E03B63A94DE7}.Debug|x86.ActiveCfg = Debug|x86
+		{2B12D9B9-8E9A-4103-AA1F-E03B63A94DE7}.Debug|x86.Build.0 = Debug|x86
+		{2B12D9B9-8E9A-4103-AA1F-E03B63A94DE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B12D9B9-8E9A-4103-AA1F-E03B63A94DE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B12D9B9-8E9A-4103-AA1F-E03B63A94DE7}.Release|x86.ActiveCfg = Release|x86
+		{2B12D9B9-8E9A-4103-AA1F-E03B63A94DE7}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7CA51F8C-5964-40A1-88DB-F62B141F6E44}
+	EndGlobalSection
+EndGlobal
