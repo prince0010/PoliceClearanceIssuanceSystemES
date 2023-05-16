@@ -2,7 +2,7 @@
 
 The `Capstone Project` of: 
 
-- [J.E.S](https://github.com/alienzzz29) (The Leader & Programmer)
+- [J.E.S](https://github.com/alienzzz29) (The Leader)
 - [P.N](https://github.com/prince0010)
 - I.J.A
 
