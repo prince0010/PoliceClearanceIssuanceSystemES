@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "PoliceClearanceSystemES": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Users\\Predator\\source\\repos\\PoliceClearanceSystemES"
+    }
+  }
+}
