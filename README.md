@@ -8,7 +8,6 @@
 ```
 Author: DigitalAdeel, leocb, IgnaceMaes
 Desc: .NET Framework Version of MaterialSkin2DotNet.
-
 ```
 > Click here: [Github Repo](https://github.com/DigitalAdeel/MaterialSkin2Framework) for this Framework.
 
