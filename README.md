@@ -1,6 +1,6 @@
 ![icons8-police-badge-50](https://github.com/prince0010/PoliceClearanceIssuanceSystemES/assets/97717613/0d602afe-b659-418e-bfce-c6a1a87b3017)
 
-The ###Capstone Project### of: 
+The `Capstone Project` of: 
 
 - [J.E.S](https://github.com/alienzzz29) (The Leader & Programmer)
 - [P.N](https://github.com/prince0010)
