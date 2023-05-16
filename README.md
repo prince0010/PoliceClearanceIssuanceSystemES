@@ -10,6 +10,6 @@ Author: DigitalAdeel, leocb, IgnaceMaes
 Desc: .NET Framework Version of MaterialSkin2DotNet.
 ```
 > [Github Repo](https://github.com/DigitalAdeel/MaterialSkin2Framework) for the MaterialSkin2Framework.
-> [^1]: Click here: [Github Repo](https://github.com/DigitalAdeel/MaterialSkin2Framework) for this Framework.
+> [^1]: Click here: [Github Repo](https://github.com/DigitalAdeel/MaterialSkin2Framework) to redirect into the MS2F repository.
 
 
