@@ -2,9 +2,9 @@
 
 The ###Capstone Project### of: 
 
-[J.E.S.](https://github.com/alienzzz29)(The Leader & Programmer)
-[P.N.](https://github.com/prince0010)
-[I.J.A]
+> [J.E.S.](https://github.com/alienzzz29)(The Leader & Programmer)
+> [P.N.](https://github.com/prince0010)
+> [I.J.A]
 
 
 # [PoliceClearanceSystemES](https://github.com/prince0010/PoliceClearanceIssuanceSystemES.git)
