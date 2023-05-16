@@ -1,4 +1,4 @@
-![technical_logo](https://github.com/prince0010/PoliceClearanceIssuanceSystemES/assets/97717613/c17d89b6-5590-4a80-8fbc-b99d8519bfbf)
+![icons8-police-badge-100](https://github.com/prince0010/PoliceClearanceIssuanceSystemES/assets/97717613/c231b4db-8ac3-42bb-b899-d30de59f6fea)
 
 # PoliceClearanceIssuanceSystemES
 
