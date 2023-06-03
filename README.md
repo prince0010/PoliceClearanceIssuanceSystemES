@@ -15,9 +15,9 @@ Desc: .NET Framework Version of MaterialSkin2DotNet.
 > [^1]: Click here: [Github Repo](https://github.com/DigitalAdeel/MaterialSkin2Framework) to redirect into the MS2F repository.
 
 ##
-The `Capstone Project` of: 
+The `Project` of: 
 
-- [J.E.S](https://github.com/alienzzz29) (The Leader)
+- [J.E.S](https://github.com/alienzzz29)
 - [P.N](https://github.com/prince0010)
 - I.J.A
 
