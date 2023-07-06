@@ -11,12 +11,12 @@
 Author: DigitalAdeel, leocb, IgnaceMaes
 Desc: .NET Framework Version of MaterialSkin2DotNet.
 ```
-> [Github Repo](https://github.com/DigitalAdeel/MaterialSkin2Framework) for the MaterialSkin2Framework.
+> [Material Skin2 Framework Github Repo](https://github.com/DigitalAdeel/MaterialSkin2Framework) for the MaterialSkin2Framework.
 > [^1]: Click here: [Github Repo](https://github.com/DigitalAdeel/MaterialSkin2Framework) to redirect into the MS2F repository.
 
 ### Fingerprint :
 
-> Click Here: [Github Repo](https://github.com/smstuebe/xamarin-fingerprint) to redirect into the Fingerprint Plugin repository.
+> Click Here: [Fingerprint Plugin Github Repo](https://github.com/smstuebe/xamarin-fingerprint) to redirect into the Fingerprint Plugin repository.
 
 
 ##
