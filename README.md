@@ -19,5 +19,5 @@ The `Project` of:
 
 - [J.E.S](https://github.com/alienzzz29)
 - [P.N](https://github.com/prince0010)
-- I.J.A
+- I.J.A.
 
